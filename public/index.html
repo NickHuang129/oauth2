@@ -3641,7 +3641,7 @@
                     const pattern3 = /^[a-z]\d{5}$/;
                     const pattern4 = /^[\s\S]*$/;  // 匹配任何字符串
                     
-                    if (!pattern1.test(last6) && !pattern2.test(last6) && !pattern3.test(last6)) {
+                   if (!pattern1.test(last6) && !pattern2.test(last6) && !pattern3.test(last6) && !pattern4.test(last6)) {
                         showModal('错误', '请联系对接人购买邮箱！');
                         return;
                     }
